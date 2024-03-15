@@ -5,17 +5,15 @@ body {
 }
 
 .container{
-    position: relative;
-    top: 100px;
-    left: 770px;
-    gap: 10px;
-    max-width: 450px;
-    height: 400px;
-    background-color: var(--dark-grey--);
-    border-radius: 20px;
-    margin: 20px;
-    width: 400px;
-    height: 650px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px auto;
+  width: 400px;
+  background-color: var(--dark-grey--);
+  border-radius: 20px;
+  height: 650px;
 }
 
 .perfil {
